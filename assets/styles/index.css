@@ -1,0 +1,239 @@
+html, body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #F5F8FA;
+    ;
+}
+
+header {
+    border-bottom: 1px solid #E0E6EA;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 20px;
+}
+
+
+nav {
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 1304px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 55px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    /* color: #4CAF50; */
+    border: 2px #646E7A;
+    border-style:outset ;
+    border-radius: 5px;
+
+}
+
+image{
+    width:200px;
+    height: 39px;
+}
+
+.flex {
+    position: absolute;
+    width: 892px;
+    height: 795px;
+    margin-left:922px;
+    margin-top: 186px;
+    display: flex;
+
+  /* display: grid; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-gap: 16px; */
+  /* max-width: 800px; */
+  /* margin: 0 auto; */
+  /* padding: 20px; */
+  /* border-radius: 8px; */
+  background-color: #FFFFFF;
+  box-shadow: 0px 15px 35px rgba(43, 64, 78, 0.095505), 0px 5px 15px rgba(0, 0, 0, 0.0490829);
+  border-radius: 6px;
+  /* flex-direction: column; */
+
+}
+
+
+.form1 {
+    position: absolute;
+    width: 580px;
+    height: 221px;
+    top: cal(341px - 186px);
+    margin-left:0px;
+    margin-top: 186px;
+    display: flex;
+
+  }
+
+
+
+label{
+    position:absolute;
+    font-family: "Brown";
+    width:227px;
+    font-family: "Sofia Pro";
+    font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height */
+align-items: center;
+letter-spacing: 0.1px;
+
+/* Text/Headings */
+color: #011C34;
+}
+
+input, select{
+    position: absolute;
+    width: 227px;
+    height:36px;
+    border-radius: 5px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 5px;
+    background-color: #EDEFF2;
+
+    /* border-color: #737373; */
+
+}
+
+#firstNameLabel{
+    margin-left: 40px;
+    margin-top:40px;
+}
+
+#firstNameInput{
+    margin-top:64px;
+    margin-left: 40px;
+}
+
+.form1 h1{
+    margin-left: 40px;
+    margin-top:0px;
+    font-family: "Lato";
+    max-width:400px;
+    font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+align-items: center;
+letter-spacing: -0.16px;
+}
+
+
+#emailLabel{
+    margin-left: 40px;
+    margin-top:130px;
+}
+
+#emailInput{
+    margin-top:158px;
+    margin-left: 40px;
+    width: 370px;
+}
+
+#lastNameLabel{
+    margin-left: 300px;
+    margin-top:40px;
+}
+
+#lastNameInput{
+    margin-top:64px;
+    margin-left: 300px;
+}
+
+
+.form2 {
+    position: absolute;
+    width: 580px;
+    height: 154px;
+    top: 270px;
+    margin-left:0px;
+    margin-top: 186px;
+    display: flex;
+    /* background-color: #011C34; */
+
+
+  }
+
+.form2 h1{
+    margin-left: 40px;
+    margin-top:0px;
+    font-family: "Lato";
+    max-width:400px;
+    font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+align-items: center;
+letter-spacing: -0.16px;
+}
+
+#creditLabel{
+    margin-left: 40px;
+    margin-top:40px;
+}
+
+#creditInput{
+    margin-top:64px;
+    margin-left: 40px;
+    width: 483px;
+}
+
+
+button {
+    width: 500px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: calc(788px - 181px);
+    background-color: #038E7D;
+    ;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+
+#footer{
+    position: absolute;
+    width: 463px;
+    height: 25px;
+    margin-left: 150px;
+    margin-top: calc(864px - 181px);
+    
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height, or 179% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+    }
